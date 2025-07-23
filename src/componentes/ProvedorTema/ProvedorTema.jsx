@@ -16,7 +16,7 @@ const tema = {
             c: '',
         },
         neutras: {
-            a: '',
+            a: '#373737',
             b: '',
             c: '',
             d: '',
@@ -31,6 +31,9 @@ const tema = {
         s : '16px',
         l : '32px',
         m : '24px',
+        x : '32px',
+        xl: '40px',
+        xxl: '48px',
     },
     fontFamily: {
         montserrat: "'Montserrat, sans-serif'",
