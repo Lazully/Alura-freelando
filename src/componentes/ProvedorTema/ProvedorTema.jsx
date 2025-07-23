@@ -31,6 +31,10 @@ const tema = {
         s : '16px',
         l : '32px',
         m : '24px',
+    },
+    fontFamily: {
+        montserrat: "'Montserrat, sans-serif'",
+        roboto: "'Roboto, sans-serif'",
     }
 }
 
