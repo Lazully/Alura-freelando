@@ -3,7 +3,7 @@ import { Global } from "@emotion/react"
 const estilos = tema => {
     return {
         html: {
-            fontFamily: tema.fontFamily.montserrat,
+            fontFamily: tema.fontFamily,
         },
         body: {
             /*Reset CSS*/
