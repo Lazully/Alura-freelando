@@ -15,6 +15,7 @@ import { IconeWhatsApp } from './componentes/Icones/IconeWhatsApp.jsx';
 import { IconeTwitch } from './componentes/Icones/IconeTwitch.jsx';
 import { IconeInstagram } from './componentes/Icones/IconeInstagram.jsx';
 import { IconeTwitter } from './componentes/Icones/IconeTwitter.jsx';
+import { ListaSuspensa } from './componentes/ListaSuspensa/ListaSuspensa.jsx';
 
 const estadosBrasileiros = [
   { "text": "Acre", "value": "AC" },
@@ -79,7 +80,7 @@ function App() {
               </Row>
               <Row>
                 <Col lg={4} md={4} sm={4} xs={4}>
-                  <CampoTexto titulo="Estado" />
+                  <ListaSuspensa titulo="Estado" opcoes={estadosBrasileiros}/>
                 </Col>
                 <Col lg={8} md={8} sm={8} xs={8}>
                   <CampoTexto titulo="Cidade" />
